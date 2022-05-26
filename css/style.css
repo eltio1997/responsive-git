@@ -284,6 +284,23 @@ body {
 
 @media (min-width: 600px) {
 
+  header {
+    font-size: 26px;
+  }
+
+  header h1 {
+    font-size: 50px;
+  }
+
+  header > ul {
+    width: 30%;
+  }
+
+  .features article{
+    width: 80%;
+    justify-content: space-evenly;
+  }
+
   .computer article {
     align-items: center;
   }
