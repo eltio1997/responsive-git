@@ -310,6 +310,9 @@ body {
     justify-content: center;
     width: 80%;
   }
+  details {
+    text-align: right;
+  }
 
   .services {
     padding-top: 5%;
@@ -398,6 +401,54 @@ body {
 }
 
 @media (min-width: 1000px) {
+
+  header > article:nth-child(1) {
+    width: 100%;
+  }
+  nav {
+    width: 60%;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  nav li {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+  }
+
+  nav a {
+    width: 100%;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5%;
+    font-size: 18px;
+  }
+
+  nav a:hover {
+    border: 1px solid whitesmoke;
+    background-color: cornflowerblue;
+    background-color: darkslateblue;
+  }
+  details {
+    display: none;
+  }
+
+  .features {
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .features article{
+    flex-wrap: unset;
+  }
+  .features h2 {
+    font-size: 50px;
+    padding-bottom: 2%;
+  }
 
   .computer {
     flex-direction: row;
