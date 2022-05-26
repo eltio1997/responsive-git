@@ -10,6 +10,196 @@ body {
 
 @media (min-width: 300px) {
 
+  header {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    padding: 5%;
+  }
+
+  header article {
+    text-align: center;
+  }
+  header > article:nth-child(1) {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header > article:nth-child(2) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: end;
+    height: 80%;
+    
+  }
+
+  details {
+    
+  }
+
+
+
+  details  > ul{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+  }
+
+  details li {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+
+  }
+
+  details a {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 3% 0% 3%;
+
+  }
+
+  summary {
+    font-size: 30px;
+  }
+
+  nav > ul {
+    display: none;
+  }
+
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15% 0% 15% 0%;
+  }
+  .features > h2 {
+    width: fit-content;
+    padding-bottom: 5%;
+    border-bottom: 1px solid cornflowerblue;
+  }
+  .features > article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3%;
+  }
+  
+  .features div {
+    padding: 3%;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+  }
+  
+  .features p {
+    font-size: 14px;
+  }
+  
+  .features i {
+    color: cornflowerblue;
+    font-size: 25px;
+  }
+  
+  .computer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    background-color: whitesmoke;
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+  .computer > article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 2%;
+  }
+  
+  .computer img {
+    width: 100%;
+  }
+  
+  .computer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+  }
+  
+  .computer i {
+    color: whitesmoke;
+    background-color: cornflowerblue;
+    font-size: 16px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .computer aside {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 80%;
+  }
+  
+  .computer p {
+    font-size: 14px;
+  }
+  
+
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  .services h2 {
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .services h3 {
+    font-size: 16px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .services p {
+    font-size: 14px;
+  }
+  .services > article {
+    width: 40%;
+    text-align: center;
+    padding: 2%;
+  }
+
+  .services i {
+    font-size: 36px;
+  }
+
+  .services > article:nth-child(even) {
+    background-color: gainsboro;
+  }
+
   .call-action {
     text-align: center;
     background-image: url(../img/dashboard-img.jpg);
