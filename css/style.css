@@ -38,12 +38,6 @@ body {
     
   }
 
-  details {
-    
-  }
-
-
-
   details  > ul{
     width: 80%;
     display: flex;
@@ -286,4 +280,63 @@ body {
     color: cornflowerblue;
   }
 
+}
+
+@media (min-width: 600px) {
+
+  .about {
+    padding: 5% 0% 5%;
+  }
+  .about > h2 {
+    padding-bottom: 2%;
+    font-size: 36px;
+  }
+
+  .about img {
+    width: 60%;
+  }
+
+  .about figcaption {
+    font-size: 32px;
+  }
+
+  .about p {
+    font-size: 24px;
+  }
+
+  .about div {
+    padding-top: 2%;
+  }
+
+  .about div > figure {
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .testimonials {
+    min-height: 15vh;
+  }
+
+  .testimonials > p {
+    font-size: 20px;
+    padding-top: 2%;
+  }
+
+
+  .testimonials h2 {
+    font-size: 36px;
+    padding-bottom: 2%;
+  }
+
+  footer {
+    min-height: 20vh;
+  }
+  footer > div, footer > span {
+    justify-content: unset;
+    width: 100%;
+    justify-content: center;
+    column-gap: 15px;
+  } 
+
+  
 }
