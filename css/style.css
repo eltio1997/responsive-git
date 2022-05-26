@@ -284,9 +284,21 @@ body {
 
 @media (min-width: 600px) {
 
+  .computer article {
+    align-items: center;
+  }
+
+  .computer div {
+    justify-content: unset;
+    justify-content: center;
+    width: 80%;
+  }
+
   .services {
     padding-top: 5%;
   }
+
+
   .services > h2 {
     font-size: 36px;
     padding-top: 1%;
